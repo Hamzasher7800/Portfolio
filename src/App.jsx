@@ -13,13 +13,13 @@ function App() {
 
   return (
     <>
-     <Navbar/>
-     <Hero/>
-     <About/>
+     <Navbar />
+     <Hero />
+     <About />
      <Services/>
-     <MyWork/>
-     <Contact/>
-     <Footer/>
+     <MyWork />
+     <Contact />
+     <Footer />
     </>
   )
 }
