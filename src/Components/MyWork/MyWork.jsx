@@ -2,7 +2,7 @@ import React from 'react'
 import "./myWork.css"
 import backgroundlogo from "../../assets/backgroundlogo.svg"
 import MyWork_Data from '../../assets/MyWork'
-const MyWork = () => {
+const myWork = () => {
   return (
     <div id='work' className='mywork'>
         <div className="mywork-title">
@@ -31,4 +31,4 @@ const MyWork = () => {
   )
 }
 
-export default MyWork
+export default myWork ;
