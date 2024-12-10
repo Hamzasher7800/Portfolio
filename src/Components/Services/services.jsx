@@ -2,6 +2,7 @@ import React from 'react'
 import "./services.css"
 import backgroundlogo from "../../assets/backgroundlogo.svg"
 import Service_Data from "../../assets/service_data"
+import arrow from "../../assets/arrow.svg"
 const Services = () => {
   return (
     <div id='services' className='services'>
@@ -17,7 +18,7 @@ const Services = () => {
                 <p>{service.s_desc}</p>
                 <div className="services-readmore">
                     <p>Readmore</p>
-                    <img src="" alt="" />
+                    <img src={arrow} alt="" />
                 </div>
             </div>
         })}

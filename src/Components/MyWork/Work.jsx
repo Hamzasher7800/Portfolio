@@ -2,6 +2,7 @@ import React from 'react'
 import "./myWork.css"
 import backgroundlogo from "../../assets/backgroundlogo.svg"
 import MyWork_Data from '../../assets/MyWork'
+import arrow from "../../assets/arrow.svg"
 const MyWork = () => {
   return (
     <div id='work' className='mywork'>
@@ -24,7 +25,7 @@ const MyWork = () => {
       </div>
         <div className="mywork-showmore">
             <p>Showmore</p>
-            <img src="" alt="" />
+            <img src={arrow} alt="" />
         </div>
       
     </div>

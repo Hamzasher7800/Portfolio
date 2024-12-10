@@ -1,6 +1,9 @@
 import React from "react";
 import "./contact.css";
 import backgroundlogo from "../../assets/backgroundlogo.svg"
+import call_icon from "../../assets/call_icon.svg"
+import location_icon from"../../assets/location_icon.svg"
+import message_icon from "../../assets/message_icon.svg"
 const Contact = () => {
     const onSubmit = async (event) => {
         event.preventDefault();
@@ -41,14 +44,14 @@ const Contact = () => {
           <p>I'm currently avaliable on taking a new project, so feel free to send me a message about anything that you want me to work on.You can contact anytime.</p>
           <div className="contact-details">
             <div className="contact-detail">
-              <img src="" alt="" /> <p>hamzasher7800@gmail.com</p>
+              <img src={message_icon} alt="" /> <p>hamzasher7800@gmail.com</p>
             </div>
             <div className="contact-detail">
-              <img src="" alt="" />
-              <p>03067800089</p>
+              <img src={call_icon} alt="" />
+              <p>+92 3067800089</p>
             </div>
             <div className="contact-detail">
-              <img src="" alt="" /> <p>sector H-15, Islamabad</p>
+              <img src={location_icon} alt="" /> <p>Sector H-15, Islamabad</p>
             </div>
           </div>
         </div>
